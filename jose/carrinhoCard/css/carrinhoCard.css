@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+.personalizado-carrinho {
+    max-width: 1000px;
+  
+}
+
+
+.card-image{
+    object-fit: cover;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    border-color: white;
+    margin-left: 1px;
+    margin-top:1px;
+    margin-bottom: 1px;
+    text-decoration: none;
+}
+.card-image:hover{
+    opacity: 80%;
+}
+.carrinho-card{
+    
+    width : 100%;
+    background-color:#F6F3EF ;
+    padding: 0;
+    box-shadow: grey  1px 1px 0 ;
+    border-radius: 0 0 10px 0;
+   
+    
+}
+.texto-carrinho{
+    color: #000;
+    text-decoration: none;
+    text-align: start;
+    font-family: Baskervville;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+.texto-carrinho:hover{
+    text-decoration: none;
+    color: #000;
+    opacity: 80%;
+  
+}
+.numero{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.controle{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.positivo{
+    color: green;
+    
+
+}
+.positivo:hover{
+    color: green;
+    opacity: 40%;
+    
+
+}
+.negativo{
+    color: red;
+}
+.negativo:hover{
+    color: red;
+    opacity:40%;
+}
+.quantidade{
+    text-align: center;
+}
+.removerCarrinho{
+    text-decoration: none;
+    color: #13577e59;
+}
+.removerCarrinho:hover{
+    text-decoration: none;
+    color: #13577e59;
+    opacity: 40%;
+}
+
+
+

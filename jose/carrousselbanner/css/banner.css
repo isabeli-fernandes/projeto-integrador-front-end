@@ -1,0 +1,96 @@
+* {box-sizing:border-box}
+
+/* banner container */
+.container-banner {
+  width: 100%;
+  position: relative;
+ 
+  margin: auto;
+  margin-top: 5px;
+}
+
+/* Esconde as imagens por padrão*/
+.banner{
+  display: none;
+  
+}
+
+/*Botão de anterior e de proximo e  */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* tamanho da imagem do banner  */
+.img-banner{
+   object-fit: cover;
+   height: 250px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+/*Posição do botão "next" para a direita */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/*cores dos botões on houver (next and prev) */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* texto do banner (pode ser removido se quiser) */
+.text {
+  color: #BC4C2A;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* bolinhas indicadoras do slide */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* animação de um slide para o outro */
+.fade-pers {
+  -webkit-animation-name: fade-pers;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade-pers;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-pers {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade-pers {
+  from {opacity: .4}
+  to {opacity: 1}
+}

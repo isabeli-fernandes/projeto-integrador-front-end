@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/carrinho.css">
+    <link rel="stylesheet" href="./jose/carrinhoCard/css/carrinhoCard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./flavio/footer/css/footer.css">
+    <link rel="stylesheet" href="./isabeli/CSS/Header.css">
+ 
+    <title>Velho Luxo</title>
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hamburguer d-block d-sm-none col-2 align-content-end">
+                    <a href="#">
+                        <img class="menu-hamburguer"
+                            src="./isabeli/Images/Menu-de-Tres-Linhas.png">
+                    </a>
+                </div>
+                <div class="titulo col-lg-3 col-md-9 col-sm-8 col-5 justify-content-center">
+                    <a href="./index.html" class="logo-marca" title="Velho Luxo">
+                    <img class="logo d-sm-block d-none" alt="Velho Luxo"
+                        src="./isabeli/Images/velho-luxo.png">
+                    <img class="logo-2 d-block d-sm-none" alt="Velho Luxo"
+                        src="./isabeli/Images/vl.png">
+                    </a>
+                </div>
+                <form action="./busca.html" class="form-pesquisa col-lg-6 d-lg-block d-none">
+                    <div class="container">
+                        <div class="row">
+                            <div class="pesquisa-btn mx-0 col-11">
+                                <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                            </div>
+                            <div class="pesquisa-btn mx-0 col-1">
+                                <button class="button-submit" type="submit">
+                                    <img class="lupa"
+                                        src="./isabeli/Images/lupa.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="login col-sm-2 col-3"> <a href="./login.html">Login</a></div>
+                <a href="./carrinho.html" class="button-sacola col-md-1 col-sm-2 col-2">
+                    <img class="sacola"
+                        src="./isabeli/Images/sacola.png">
+                </a>
+                <form action="./busca.html" class="container form-pesquisa col-10 d-lg-none d-block">
+                    <div class="row">
+                        <div class="pesquisa-btn mx-0 col-11">
+                            <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                        </div>
+                        <div class="pesquisa-btn mx-0 col-1">
+                            <button class="button-submit" type="submit">
+                                <img class="lupa"
+                                    src="./isabeli/Images/lupa.png">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <nav id="menu">
+                        <ul class="align-content-center justify-content-center px-5 d-none d-sm-flex">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./categorias.html">Catálogo</a></li>
+                            <li><a href="./promocoes.html">Promoções</a></li>
+                            <li><a href="./contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        
+        <div class="row justify-content-center mt-2 mb-2">
+            <h2 class="titulo col-12 mb-3">Carrinho</h2>
+            <div class="col-9 linha-divisoria mb-3"></div> 
+        </div>
+    </div>
+   
+    <div class=" container
+    personalizado-carrinho-desc p-0 pl-md-1 pr-md-1  ">
+       
+
+        <div class="row container-descricao justify-content-between align-items-center">
+            <h2 class=" ms-4 texto-desc col-5  col-md-4 col">
+                DESCRIÇÃO PRODUTOS
+
+            </h2>
+            <h2 class="texto-desc col-2 ms-5 "><abbr title="Quantidade unitaria">QTD UN.</abbr></h2>
+            <h2 class="texto-desc col-2 me-5">PREÇO </h2>
+
+        </div>
+
+
+
+    </div>
+    <div class=" container
+    personalizado-carrinho p-0 pl-md-1 pr-md-1  ">
+        <div class="row carrinho-card mt-1 mb-2 mx-0 align-items-center justify-content-between">
+            <div class="col-2 col-md-1  p-0">
+                <a href="#"> <img src="./jose/carrinhoCard/images/caixaRegistradora.png" class="card-image " alt=""></a>
+            </div>
+            <a href="#paginaProduto" class="col-4 col-md-3  texto-carrinho">
+                Caixa registradora
+                <br>fabricada em <span class="numero">1932</span><br>
+                feita aço inoxidavel<br>
+                Criada por James
+                Ritty.
+
+
+            </a>
+            <div class=" col-1 numero quantidade align-content-center">
+                <a href="" class="controle negativo">-</a><br> 01 <br><a href="" class="controle positivo">+</a>
+            </div>
+            <div class="col-md-2 col-lg-1 col-2 texto-carrinho ms-4">
+                R$<span class="numero">2.500</span>
+
+            </div>
+            <div class="col-1 ms-0"><a href="#" class="removerCarrinho">X</a></div>
+
+
+
+
+
+
+        </div>
+
+        <div class="row carrinho-card mt-1 mb-2 mx-0 align-items-center justify-content-between">
+            <div class="col-2 col-md-1  p-0">
+                <a href="#"> <img src="./jose/carrinhoCard/images/caixaRegistradora.png" class="card-image " alt=""></a>
+            </div>
+            <a href="#paginaProduto" class="col-4 col-md-3  texto-carrinho">
+                Caixa registradora
+                <br>fabricada em <span class="numero">1932</span><br>
+                feita aço inoxidavel<br>
+                Criada por James
+                Ritty.
+
+
+            </a>
+
+            <div class=" col-1 numero quantidade align-content-center">
+                <a href="" class="controle negativo">-</a><br> 01 <br><a href="" class="controle positivo">+</a>
+            </div>
+
+            <div class="col-md-2 col-lg-1 col-2 texto-carrinho ms-4">
+                R$<span class="numero">2.500</span>
+
+            </div>
+
+            <div class="col-1 ms-0"><a href="#" class="removerCarrinho">X</a></div>
+
+
+
+
+
+
+        </div>
+        <div class="row carrinho-card mt-1 mb-2 mx-0 align-items-center justify-content-between">
+            <div class="col-2 col-md-1  p-0">
+                <a href="#"> <img src="./jose/carrinhoCard/images/caixaRegistradora.png" class="card-image " alt=""></a>
+            </div>
+            <a href="#paginaProduto" class="col-4 col-md-3  texto-carrinho">
+                Caixa registradora
+                <br>fabricada em <span class="numero">1932</span><br>
+                feita aço inoxidavel<br>
+                Criada por James
+                Ritty.
+
+
+            </a>
+            <div class=" col-1 numero quantidade align-content-center">
+                <a href="" class="controle negativo">-</a><br> 01 <br><a href="" class="controle positivo">+</a>
+            </div>
+            <div class="col-md-2 col-lg-1 col-2 texto-carrinho ms-4">
+                R$<span class="numero">2.500</span>
+
+            </div>
+            <div class="col-1 ms-0"><a href="#" class="removerCarrinho">X</a></div>
+
+
+
+
+
+
+        </div>
+        <div class="row tamanho  ">
+            <div class="col-11 mb-3 mt-3">
+                <h4 class="texto-total">Total:R$ <span class="numero total">7500,00</span></h4>
+            </div>
+            
+
+        </div>
+        <div class="row justify-content-center tamanho mb-4">
+            <div class="col-9 linha-divisoria-apoio justify-self-center "></div> 
+        </div>
+        <div class="row tamanho justify-content-between my-4">
+            <a href="./index.html" class="btn-retorno">VOLTAR</a>
+
+            <a href="./login.html" class="btn-confirmacao" >FINALIZAR </a>
+
+
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="container-fluid ">
+            <div class="row justify-content-between first-footer  px-0">
+                <div class="col-5 col-xs-6 col-sm-2 col-md-3 contato px-2">
+                    <h3>
+                        contato
+                    </h3>
+                    <ul>
+                        <li><a href="./contato.html">Dúvidas</a></li>
+                        <li><a href="./contato.html">Informações</a></li>
+                        <li><a href="./contato.html">Sugestões</a></li>
+                    </ul>
+                </div>
+                <div class=" col-7 col-xs-6 col-sm-6 col-md-3 produtos px-2">
+                    <h3>
+                        produtos
+                    </h3>
+                    <ul>
+                        <li><a href="./categorias.html">Comprar</a></li>
+                        <li><a href="./contato.html">Vender</a></li>
+                        <li><a href="">Promoções</a></li>
+                    </ul>
+                </div>
+                <div class=" col-5 col-xs-6 col-sm-6 col-md-3 sobre px-2">
+                    <h3>
+                        sobre
+                    </h3>
+                    <ul>
+                        <li><a href="./sobre.html">Visão</a></li>
+                        <li><a href="./sobre.html">Missão</a></li>
+                        <li><a href="./sobre.html">História</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-xs-6 col-sm-6 col-md-3 redes px-2">
+                    <h3>
+                        redes sociais
+                    </h3>
+                    <ul>
+                        <li class="instagram"><a href="">Instagram</a></li>
+                        <li class="facebook"><a href="">Facebook</a></li>
+                        <li class="pinterest"><a href="">Pinterest</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-12 last-footer px-0">
+                    criado por GRUPO 5 RD
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/carrinho.css">
+
+    <link rel="stylesheet" href="./natalia/css/section.css">
+    <link rel="stylesheet" href="./flavio/footer/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./eliel/carousel-cards/css-cards/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="./jose/carrousselbanner/css/banner.css">
+    <link rel="stylesheet" href="./isabeli/CSS/Header.css">
+    <link rel="stylesheet" href="./eliel/compra-concluida/css/styles.css">
+    <link rel="stylesheet" href="./eliel/form-cadastro/css-cadastro/styles.css">
+    <link rel="stylesheet" href="./eliel/resumo-pedido/css/styles.css">
+    <title>Resumo do Pedido - Velho Luxo</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hamburguer d-block d-sm-none col-2 align-content-end">
+                    <a href="#">
+                        <img class="menu-hamburguer"
+                            src="./isabeli/Images/Menu-de-Tres-Linhas.png">
+                    </a>
+                </div>
+                <div class="titulo col-lg-3 col-md-8 col-sm-7 col-4 justify-content-center">
+                    <a href="./index.html" class="logo-marca" title="Velho Luxo">
+                    <img class="logo d-sm-block d-none" alt="Velho Luxo"
+                        src="./isabeli/Images/velho-luxo.png">
+                    <img class="logo-2 d-block d-sm-none" alt="Velho Luxo"
+                        src="./isabeli/Images/vl.png">
+                    </a>
+                </div>
+                <form action="./busca.html" class="form-pesquisa col-lg-6 d-lg-block d-none">
+                    <div class="container">
+                        <div class="row">
+                            <div class="pesquisa-btn mx-0 col-11">
+                                <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                            </div>
+                            <div class="pesquisa-btn mx-0 col-1">
+                                <button class="button-submit" type="submit">
+                                    <img class="lupa"
+                                        src="./isabeli/Images/lupa.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="perfil-link col-2 col-lg-1"><a href="./perfil-usuario.html"><b>Perfil</b></a></div>
+                <div class="login col-2 col-sm-1"><a href="./login.html">Logout</a></div>
+                <a href="./carrinho.html" class="button-sacola col-md-1 col-sm-2 col-2">
+                    <img class="sacola"
+                        src="./isabeli/Images/sacola.png">
+                </a>
+                <form action="./busca.html" class="container form-pesquisa col-10 d-lg-none d-block">
+                    <div class="row">
+                        <div class="pesquisa-btn mx-0 col-11">
+                            <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                        </div>
+                        <div class="pesquisa-btn mx-0 col-1">
+                            <button class="button-submit" type="submit">
+                                <img class="lupa"
+                                    src="./isabeli/Images/lupa.png">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <nav id="menu">
+                        <ul class="align-content-center justify-content-center px-5 d-none d-sm-flex">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./categorias.html">Catálogo</a></li>
+                            <li><a href="./promocoes.html">Promoções</a></li>
+                            <li><a href="./contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <h1>Resumo do pedido</h1>
+
+    <div class="container-fluid container-principal">
+
+        <div class="row linha-geral justify-content-between">
+
+            <ul class="container col-12 col-lg-6 mx-0 d-flex flex-column">
+
+                <h4>Itens</h4>
+
+                <li class="row bloco-produto item-1">
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Desc.:</div>
+                    <div class="atributos atributo-descricao col-12 col-sm-9">Penteadeira (1918) Madeira</div>
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Valor:</div>
+                    <div class="atributos atributo-valor col-12 col-sm-9">R$1999,00</div>
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Qtd.:</div>
+                    <div class="atributos atributo-qtd col-12 col-sm-9">01</div>
+                </li>
+
+                <li class="row bloco-produto item-2">
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Desc.:</div>
+                    <div class="atributos atributo-descricao col-12 col-sm-9">Chás (1908)</div>
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Valor:</div>
+                    <div class="atributos atributo-valor col-12 col-sm-9">R$99,99</div>
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Qtd.:</div>
+                    <div class="atributos atributo-qtd col-12 col-sm-9">01</div>
+                </li>
+
+                <li class="row bloco-produto item-3">
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Desc.:</div>
+                    <div class="atributos atributo-descricao col-12 col-sm-9">Penteadeira (1908) Madeira</div>
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Valor:</div>
+                    <div class="atributos atributo-valor col-12 col-sm-9">R$1999,00</div>
+
+                    <div class="atributos tipo-atributo col-3 d-none d-sm-flex">Qtd.:</div>
+                    <div class="atributos atributo-qtd col-12 col-sm-9">01</div>
+                </li>
+
+                <div class="valor-total">Total:&nbsp;<b>R$4097,99</b></div>
+
+            </ul>
+
+            <div class="container col-12 col-lg-5 mx-0">
+
+                <div class="row">
+                    <ul class="lista-pagamento col-12 mx-0 d-flex flex-column">
+
+                        <h4>Pagamento</h4>
+
+                        <li class="row pagamento-lista">
+                            <div class="atributos tipo-pagamento">Mastercard Crédito</div>
+                            <div class="atributos numero-cartao">0000-0000-0000-0000</div>
+                            <div class="atributos tipo-pagamento">À vista</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <ul class="lista-pagamento col-12 mx-0 d-flex flex-column">
+
+                        <h4>Endereço de entrega</h4>
+
+                        <li class="row endereco-lista">
+                            <div class="atributos nome-endereco">Casa</div>
+                            <div class="atributos descricao-endereco">
+                                Travessa Sinhá Moça, <b>120</b> - Jardim da Conquista, São Paulo - SP
+                            </div>
+                            <div class="atributos referencia-endereco">Próximo ao AMA</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <form action="./compra-concluida.html" class="botoes-navegacao d-flex justify-content-between">
+
+            <a href="./checkout.html" class="btn-retorno retorno-resumo">VOLTAR</a>
+            <input type="submit" value="FINALIZAR COMPRA" class="btn-confirmacao btn-finalizar"/>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="container-fluid ">
+            <div class="row justify-content-between first-footer  px-0">
+                <div class="col-5 col-xs-6 col-sm-2 col-md-3 contato px-2">
+                    <h3>
+                        contato
+                    </h3>
+                    <ul>
+                        <li><a href="./contato.html">Dúvidas</a></li>
+                        <li><a href="./contato.html">Informações</a></li>
+                        <li><a href="./contato.html">Sugestões</a></li>
+                    </ul>
+                </div>
+                <div class=" col-7 col-xs-6 col-sm-6 col-md-3 produtos px-2">
+                    <h3>
+                        produtos
+                    </h3>
+                    <ul>
+                        <li><a href="./categorias.html">Comprar</a></li>
+                        <li><a href="./contato.html">Vender</a></li>
+                        <li><a href="">Promoções</a></li>
+                    </ul>
+                </div>
+                <div class=" col-5 col-xs-6 col-sm-6 col-md-3 sobre px-2">
+                    <h3>
+                        sobre
+                    </h3>
+                    <ul>
+                        <li><a href="./sobre.html">Visão</a></li>
+                        <li><a href="./sobre.html">Missão</a></li>
+                        <li><a href="./sobre.html">História</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-xs-6 col-sm-6 col-md-3 redes px-2">
+                    <h3>
+                        redes sociais
+                    </h3>
+                    <ul>
+                        <li class="instagram"><a href="">Instagram</a></li>
+                        <li class="facebook"><a href="">Facebook</a></li>
+                        <li class="pinterest"><a href="">Pinterest</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-12 last-footer px-0">
+                    criado por GRUPO 5 RD
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="./jose/carrousselbanner/app/banner.js"></script>
+
+</body>
+
+</html>

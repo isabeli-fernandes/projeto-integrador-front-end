@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/historico-pedidos.css">
+    <link rel="stylesheet" href="./flavio/footer/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="./eliel/carousel-cards/css-cards/styles.css" rel="stylesheet">
+    <title>Velho Luxo</title>
+</head>
+
+<body>
+      <!-- iNÍCIO HEADER -->
+      <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hamburguer d-block d-sm-none col-2 align-content-end">
+                    <a href="">
+                        <img class="menu-hamburguer" src="./isabeli/Images/Menu-de-Tres-Linhas.png">
+                    </a>
+                </div>
+                <div class="titulo col-lg-3 col-md-9 col-sm-8 col-5 justify-content-center">
+                    <a href="./index.html" class="logo-marca" title="Velho Luxo">
+                        <img class="logo" alt="Velho Luxo" src="./isabeli/Images/Logo-Velho-Luxo.png">
+                    </a>
+                </div>
+                <form class="form-pesquisa col-lg-6 d-lg-block d-none">
+                    <div class="container">
+                        <div class="row">
+                            <div class="pesquisa-btn mx-0 col-11">
+                                <input type="text" class="pesquisa" placeholder="O que deseja colecionar?">
+                            </div>
+                            <div class="pesquisa-btn mx-0 col-1">
+                                <button class="button-submit" type="submit">
+                                    <img class="lupa" src="./isabeli/Images/lupa.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="login col-sm-2 col-3"> <a href="./login.html">Login</a></div>
+                <a href="./carrinho.html" class="button-sacola col-md-1 col-sm-2 col-2">
+                    <img class="sacola" src="./isabeli/Images/sacola.png">
+                </a>
+                <form class="form-pesquisa col-lg-6 d-lg-none d-block">
+                    <div class="container">
+                        <div class="row">
+                            <div class="pesquisa-btn mx-0 col-11">
+                                <input type="text" class="pesquisa">
+                            </div>
+                            <div class="pesquisa-btn mx-0 col-1">
+                                <button class="button-submit" type="submit">
+                                    <img class="lupa" src="./isabeli/Images/lupa.png">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <nav id="menu">
+                        <ul class="align-content-center justify-content-center px-5 d-none d-sm-flex">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./categorias.html">Catálogo</a></li>
+                            <li><a href="#">Promoções</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- FINAL HEADER -->
+    <!-- INÍCIO HISTORICO PEDIDOS-->
+
+    <h1>Meus Pedidos</h1>
+
+    <main class="conatiner-fluid custom-container py-5">
+
+        <div class="row">
+
+            <div class="d-flex flex-column flex-shrink-0 p-3 bg-light col-md-3 col-12">
+
+                <ul class="nav nav-pills flex-column mb-auto">
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Minha conta</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Meus Dados</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link">Meus Endereços</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link active"> Meus Pedidos</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link">Ajuda</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="row d-flex justify-content-center col-md-9 col-12">
+                
+                <div class="mx-3 mx-sm-1 mx-lg-4 px-5 px-sm-1 px-lg-4">
+
+                    <div class="row d-flex justify-content-center">
+
+                        <div class="cabecalho-pedido">
+
+                            <ul class="row cabecalho-pedido-item text-center">
+                                <li class="col-3"><strong>N° Pedido</strong></li>
+                                <li class="col-5"><strong>Detalhes do Pedido</strong></li>
+                                <li class="col-2"><strong>Data</strong></li>
+                                <li class="col-2"><strong>Status</strong></li>
+                            </ul>
+
+                            <ul class="row">
+                                <li class="col-3 numero-pedido"><a href="">96554</a></li>
+                                <li class="col-5">Penteadeira em Madeira (1955)</li>
+                                <li class="col-2">10/08/2021</li>
+                                <li class="col-2">Em separação</li>
+                            </ul>
+
+                            <hr>
+
+                            <ul class="row">
+                                <li class="col-3 numero-pedido"><a href="">11542</li></a>
+                                <li class="col-5">Relógio de parede em madeira (1912)</li>
+                                <li class="col-2">30/07/2021</li>
+                                <li class="col-2">Entregue</li>
+                            </ul>
+
+                            <hr>
+
+                            <ul class="row">
+                                <li class="col-3 numero-pedido"><a href="">12585</a></li>
+                                <li class="col-5">Relógio de bolso (1889)</li>
+                                <li class="col-2">05/06/2021</li>
+                                <li class="col-2">Entregue</li>
+                            </ul>
+
+                            <hr>
+
+                            <ul class="row">
+                                <li class="col-3 numero-pedido"><a href="">96485</a></li>
+                                <li class="col-5">Caixa em Madeira de lei (1932)</li>
+                                <li class="col-2">02/06/2021</li>
+                                <li class="col-2">Entregue</li>
+                            </ul>
+            
+                        </div>   
+
+                    </div>
+
+                    <div class="row justify-content-center mt-5">
+
+                        <a href="" class="btn-retorno mx-5">VOLTAR</a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FINAL HISTORICO PEDIDOS-->
+
+    <!-- INÍCIO FOOTER -->
+    <footer>
+
+        <div class="container-fluid">
+            <div class="row justify-content-between first-footer px-0">
+                <div class="col-5 col-xs-6 col-sm-2 col-md-3 contato px-2">
+                    <h3>
+                        contato
+                    </h3>
+                    <ul>
+                        <li><a href="">Dúvidas</a></li>
+                        <li><a href="">Informações</a></li>
+                        <li><a href="">Sugestões</a></li>
+                    </ul>
+                </div>
+                <div class=" col-7 col-xs-6 col-sm-6 col-md-3 produtos px-2">
+                    <h3>
+                        produtos
+                    </h3>
+                    <ul>
+                        <li><a href="">Comprar</a></li>
+                        <li><a href="">Vender</a></li>
+                        <li><a href="">Promoções</a></li>
+                    </ul>
+                </div>
+                <div class=" col-5 col-xs-6 col-sm-6 col-md-3 sobre px-2">
+                    <h3>
+                        sobre
+                    </h3>
+                    <ul>
+                        <li><a href="">Visão</a></li>
+                        <li><a href="">Missão</a></li>
+                        <li><a href="">História</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-xs-6 col-sm-6 col-md-3 redes px-2">
+                    <h3>
+                        redes sociais
+                    </h3>
+                    <ul>
+                        <li class="instagram"><a href="">Instagram</a></li>
+                        <li class="facebook"><a href="">Facebook</a></li>
+                        <li class="pinterest"><a href="">Pinterest</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-12 last-footer px-0">
+                    criado por GRUPO 5 RD
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+    <!-- FINAL LOGIN -->
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banner</title>
+    <link rel="stylesheet" href="./css/banner.css">
+</head>
+<body>
+    <!-- Banner container -->
+    <div class="container-banner">
+
+        <!-- imagens do baner/// -->
+            <!--imagem 1 -->
+        <div class="banner fade">
+        
+        <img src="./images/fundo-abstrato-elegante-134599122 (1).png" class="img-banner" >
+        <div class="text">imagem 1</div>
+        </div>
+        <!-- fim imagem 1 -->
+        <!--imagem 2 -->
+        <div class="banner fade">
+        
+        <img src="./images/banner1.jpg" class="img-banner">
+        <div class="text">imagem 2</div>
+        </div>
+        <!-- fim imagem 2 -->
+        <!-- imagem 3 -->
+        <div class="banner fade">
+       
+        <img src="./images/fundo-abstrato-elegante-134599122.png" class="img-banner">
+        <div class="text">imagem 3</div>
+        </div>
+        <!-- fim imagem 3 -->
+
+        <!-- Botão de anterior -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <!-- Fim -->
+
+
+        <!-- Botão de proximo -->
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- Fim -->
+
+    </div>
+    <br>
+    
+    <!--Circulos embaixo da imagem  -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="./app/banner.js"></script>
+</body>
+</html>
